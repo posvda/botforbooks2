@@ -54,7 +54,7 @@ bot.action('btn_4', async (ctx)=> {
 bot.action('btn_5', async (ctx)=> {
         try {
             await ctx.answerCbQuery()
-            await ctx.replyWithHTML('Книга: <em>«The Sixth Extinction: An Unnatural History»</em>\n' + 'Автор: Elizabeth Kolbert\n' + 'Описание: В этой книге исследуется текущая массовая вымирание видов, вызванное деятельностью человека, и его последствия для планеты.')
+            await ctx.replyWithHTML('Книга: <em>«The Sixth Extinction: An Unnatural History»</em>\n' + 'Автор: Elizabeth Kolbert\n' + 'Описание: В этой книге исследуется текущая массовая вымирание видов, вызванное деятельностью человека, и его последствия для планеты.           ')
         } catch (e) {
             console.error(e)
         }
